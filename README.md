@@ -5,7 +5,7 @@ The repository contains all the Python snippets that can be useful while doing h
 ## Handling Dataset
 
 - 1.1. Missing values 
-  - Jupyter - [handling_dataset.ipynb](https://nbviewer.jupyter.org/github/unerue/snippet/blob/master/examples/charts.ipynb)
+  - Jupyter - [handling_dataset.ipynb](https://nbviewer.jupyter.org/github/unerue/snippet/blob/master/examples/handling_dataset.ipynb)
 
 - 1.2. 
 

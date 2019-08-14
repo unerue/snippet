@@ -5,7 +5,7 @@ The repository contains all the Python snippets that can be useful while doing h
 ## Handling Dataset
 
 - 1.1. Missing values 
-  - Jupyter - []()
+  - Jupyter - [handling_dataset.ipynb](https://nbviewer.jupyter.org/github/unerue/snippet/blob/master/examples/charts.ipynb)
 
 - 1.2. 
 
@@ -18,7 +18,7 @@ The repository contains all the Python snippets that can be useful while doing h
 ## Visualization
 
 - 1.1. Barchart
-- Jupyter - []()
+- Jupyter - [charts.ipynb](https://nbviewer.jupyter.org/github/unerue/snippet/blob/master/examples/charts.ipynb)
 
 ## Operations Research
 

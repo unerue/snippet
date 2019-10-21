@@ -1,0 +1,14 @@
+name: metaheuristics
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7.4
+  - numpy=
+  - matplotlib=
+  - seaborn=
+  - pandas=
+  - scikit-learn=
+  - scipy=
+
+ 

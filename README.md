@@ -11,28 +11,32 @@
 
 The repository contains all the Python snippets that can be useful while doing hangdling dataset, operations research, metaheuristics, visualization, writing paper, machine learning and doing Kaggle competitions.
 
-## Handling Dataset
+#### Dependencies
 
-- Missing values:
-  - Notebook - [handling_dataset.ipynb](https://nbviewer.jupyter.org/github/unerue/snippet/blob/master/examples/handling_dataset.ipynb)
-  - Source - []()
+`snippet` requires:
 
-- GroupbyImputer:
-  - Notebook - []()
-  - Source - [groupby_imputer.py](https://github.com/unerue/snippet/blob/master/snippet/mltools/groupby_imputer.py)
-
-- FeatureSelector: 
-  - Source - [feature_selector.py]()
-
-- CategoricalEncoder
-  - Notebook -  
-  - Source - [categorical_encoder.py]()
+* Python (>= 3.7.4)
+* NumPy (>= 1.16.5)
+* pandas (>= 0.25.1)
+* matplotlib (>=)
+* seaborn (>=)
 
 ## Visualization
 
-- Barchart
-  - Notebook - [plot.ipynb](https://nbviewer.jupyter.org/github/unerue/snippet/blob/master/examples/plot.ipynb)
+1. **Bar Chart** - [bar-chart.ipynb](https://nbviewer.jupyter.org/github/unerue/snippet/blob/master/examples/bar-chart.ipynb)
+2. **Grid Plots** - [grid-plot.ipynb](https://nbviewer.jupyter.org/github/unerue/snippet/blob/master/examples/grid-plot.ipynb)
+3. **Radar Chart** - [radar-chart.ipynb](https://nbviewer.jupyter.org/github/unerue/snippet/blob/master/examples/radar-chart.ipynb) 
 
-- GridChart
+---
+
+## Handling Dataset
+
+1. **Missing values**
+    - [handling_dataset.ipynb](https://nbviewer.jupyter.org/github/unerue/snippet/blob/master/examples/handling_dataset.ipynb)
+    - [groupby_imputer.py](https://github.com/unerue/snippet/blob/master/snippet/mltools/groupby_imputer.py)
+2. **FeatureSelector** - [feature_selector.py]()
+3. **CategoricalEncoder** - [categorical_encoder.py]()
+
+---
 
 ## Machine Learning Tools

@@ -1,4 +1,3 @@
-
 ## Ubuntu 18.04 Matplotlib 한글 폰트 설치
 
 **2020년 4월 21**
@@ -36,3 +35,40 @@ import matplotlib
 
 [f.fname for f in matplotlib.font_manager.fontManager.ttflist]
 ```
+
+
+## Ubuntu 18.04
+
+```zsh
+conda install -c conda-forge opencv=4.1.0
+```
+
+## Ubuntu and Mac
+
+우분투에서...
+```zsh
+ssh name@host -p 
+sudo vim /etc/ssh/sshd_config
+```
+
+```vim
+X11Forwarding yes
+X11DisplayOffset 10
+PrintMotd no
+PrintLastLog yes
+TCPKeepAlive yes
+```
+맥에서...
+```zsh
+cd ~/.ssh
+vim config
+```
+
+```vim
+host name
+  Hostname name
+  Port 22
+  ForwardAgent yes
+  ForwardX11 yes
+```
+opencv 버전 4에서 영상이 됨

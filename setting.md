@@ -31,7 +31,7 @@ sudo fc-cache -fv
 `jupyter lab`
 
 ```python
-import matplotlib
+import matplotlib.font_manager
 
 [f.fname for f in matplotlib.font_manager.fontManager.ttflist]
 ```
